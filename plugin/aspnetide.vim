@@ -10,24 +10,24 @@ let g:loaded_aspnetide= 1
 
 "map keys to new functions
 "nmenomic is A for ASP plus do function keys like asp.net devs expect
-map <silent> <F1> :call <SID>ASPHelp()<CR>
-imap <silent> <F1> <ESC>:call <SID>ASPHelp()<CR>
-map <silent> <leader>ah :call <SID>ASPHelp()<CR>
-imap <silent> <leader>ah <ESC>:call <SID>ASPHelp()<CR>
-map <silent> <leader>af :call <SID>ASPAltFile(0)<CR>
-imap <silent> <leader>af <ESC>:call <SID>ASPAltFile(0)<CR>
-map <silent> <leader>aw :call <SID>ASPAltFile(1)<CR>
-imap <silent> <leader>aw <ESC>:call <SID>ASPAltFile(1)<CR>
-map <silent> <leader>ar :call <SID>ASPRun()<CR>
-imap <silent> <leader>ar <ESC>:call <SID>ASPRun()<CR>
-map <silent> <F5> :call <SID>ASPRun()<CR>
-imap <silent> <F5> <ESC>:call <SID>ASPRun()<CR>
-map <silent> <leader>ab :call <SID>ASPBuild()<CR>
-imap <silent> <leader>ab <ESC>:call <SID>ASPBuild()<CR>
-map <silent> <leader>ag :call <SID>ASPGoTo()<CR>
-imap <silent> <leader>ag <ESC>:call <SID>ASPGoTo()<CR>
-map <silent> <leader>ad :call <SID>ASPLoadDB()<CR>
-imap <silent> <leader>ad <ESC>:call <SID>ASPLoadDB()<CR>
+" map <silent> <F1> :call <SID>ASPHelp()<CR>
+" imap <silent> <F1> <ESC>:call <SID>ASPHelp()<CR>
+" map <silent> <leader>ah :call <SID>ASPHelp()<CR>
+" imap <silent> <leader>ah <ESC>:call <SID>ASPHelp()<CR>
+" map <silent> <leader>af :call <SID>ASPAltFile(0)<CR>
+" imap <silent> <leader>af <ESC>:call <SID>ASPAltFile(0)<CR>
+" map <silent> <leader>aw :call <SID>ASPAltFile(1)<CR>
+" imap <silent> <leader>aw <ESC>:call <SID>ASPAltFile(1)<CR>
+" map <silent> <leader>ar :call <SID>ASPRun()<CR>
+" imap <silent> <leader>ar <ESC>:call <SID>ASPRun()<CR>
+" map <silent> <F5> :call <SID>ASPRun()<CR>
+" imap <silent> <F5> <ESC>:call <SID>ASPRun()<CR>
+" map <silent> <leader>ab :call <SID>ASPBuild()<CR>
+" imap <silent> <leader>ab <ESC>:call <SID>ASPBuild()<CR>
+" map <silent> <leader>ag :call <SID>ASPGoTo()<CR>
+" imap <silent> <leader>ag <ESC>:call <SID>ASPGoTo()<CR>
+" map <silent> <leader>ad :call <SID>ASPLoadDB()<CR>
+" imap <silent> <leader>ad <ESC>:call <SID>ASPLoadDB()<CR>
 
 
 function! s:MVCMode()
