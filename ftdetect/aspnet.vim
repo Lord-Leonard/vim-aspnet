@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.aspx set filetype=aspnet
+au BufNewFile,BufRead *.as[cmp]x set filetype=aspnet
