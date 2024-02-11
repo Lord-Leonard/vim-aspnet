@@ -50,7 +50,7 @@
 "
 
 " Quit when a syntax file was already loaded
-atif version < 600
+if version < 600
   syn clear
 elseif exists("b:current_syntax")
   finish
