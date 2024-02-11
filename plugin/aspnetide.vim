@@ -16,7 +16,7 @@ let g:loaded_aspnetide= 1
 " imap <silent> <leader>ah <ESC>:call <SID>ASPHelp()<CR>
 " map <silent> <leader>af :call <SID>ASPAltFile(0)<CR>
 " imap <silent> <leader>af <ESC>:call <SID>ASPAltFile(0)<CR>
-" map <silent> <leader>aw :call <SID>ASPAltFile(1)<CR>
+" hlexistsmap <silent> <leader>aw :call <SID>ASPAltFile(1)<CR>
 " imap <silent> <leader>aw <ESC>:call <SID>ASPAltFile(1)<CR>
 " map <silent> <leader>ar :call <SID>ASPRun()<CR>
 " imap <silent> <leader>ar <ESC>:call <SID>ASPRun()<CR>
