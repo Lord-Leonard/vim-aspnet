@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.aspx setf aspnet
+au BufNewFile,BufRead *.aspx set filetype=aspnet
