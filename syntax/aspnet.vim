@@ -50,7 +50,7 @@
 "
 
 " Quit when a syntax file was already loaded
-if version < 600
+atif version < 600
   syn clear
 elseif exists("b:current_syntax")
   finish
@@ -110,6 +110,7 @@ syn keyword aspnetAttribute contained   VaryByCustom VaryByHeader VaryByParam Va
 " FIXME:   This is a pretty skety region here -- I can't seem to get the end
 "          </script> tag to be part of the region... annoying.
 syn region aspnetServerScript matchgroup=Special start=+<script[^>]*runat="\=server"\=[^>]*>+ end=+</script>+ contained contains=@aspnetAddCS fold
+syn region aspNetCSharpCode start="<%" end="%>" contained contains=@aspnetAddCS
 
 " ASP standard server controls
 " EXAMPLE: <asp:TextBox id="t1" runat="server"/>
