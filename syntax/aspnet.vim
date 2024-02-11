@@ -67,8 +67,8 @@ unlet b:current_syntax
 " This bit isn't very portable -- it just adds my custom additions to the
 " standard c# syntax file.  Basically just some folds.
 "
-syn include @myCSStuff <sfile>:p:h/../after/syntax/cs.vim
-syn cluster aspnetAddCS add=@myCSStuff
+" syn include @myCSStuff <sfile>:p:h/../after/syntax/cs.vim
+" syn cluster aspnetAddCS add=@myCSStuff
 
 if version < 600
   source <sfile>:p:h/html.vim
